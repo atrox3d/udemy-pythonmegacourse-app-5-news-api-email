@@ -11,7 +11,7 @@ USE_CACHE = True
 cache = APICache(url)
 if USE_CACHE and cache:
     print('using cache...')
-    json = cache
+    data = cache
 else:
     print('using requests...')
     request = requests.get(url)
