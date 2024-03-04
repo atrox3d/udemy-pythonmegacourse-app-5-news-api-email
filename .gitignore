@@ -10,3 +10,5 @@ todos.txt
 /bonus/camera-photos/
 api-cache-files/
 downloads/
+
+__pycache__
